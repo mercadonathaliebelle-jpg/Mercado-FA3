@@ -1,0 +1,54 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(154, 208, 255);
+}
+        
+#wrap {
+    text-align: center;
+    background-color: rgb(218, 226, 235);
+    width: 600px;
+    margin: 0 auto;
+}
+
+#wrap img {
+    width: 400px;
+
+}
+
+.songtitle {
+    margin-top: -10px;  
+}
+
+.songtitle h3, 
+.songtitle h5 {
+    margin: 0;
+}
+
+#songlink {
+    position: fixed;
+    bottom: 50px;
+    left: 180px;
+    padding: 5px;
+    width: 250px;
+    overflow: hidden;
+    font-size: 10px;
+    border: 2px solid rgb(65, 0, 65);
+    background-color: rgb(206, 154, 255);
+    text-align: left;
+}
+
+#songlink img{
+    float: left;
+    margin-right: 5px;
+    width: 50px;
+    height: 50px;
+}
+
+#songlink .songinfo p {
+    margin: 2px 0;
+}
+        
+#songlink a {
+            text-decoration: none;
+            color: rgb(65, 0, 65);
+}
